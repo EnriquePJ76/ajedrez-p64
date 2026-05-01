@@ -19,7 +19,7 @@ rq.responseType = 'json';
 rq.send();
 
 rq.onload = function () {
-   const players = request.response;
+   const players = rq.response;
    show_player_list(players);
 }
 
