@@ -1,4 +1,12 @@
 
+function show_player_list(players) {
+   const olPlayers = document.getElementById('players');
+
+   Object.keys(players).forEach(key => {
+      console.log(key + ' => ' + players[key]);
+   })
+}
+
 const requestURL = 'players.json';
 const request = new XMLHttpRequest();
 
@@ -8,6 +16,7 @@ request.send();
 
 request.onload = function () {
    const players = request.response;
-   console.log(players);
+   show_player_list(players);
 }
+
 
