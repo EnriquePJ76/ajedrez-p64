@@ -3,7 +3,7 @@
 function show_player_list(players) {
    const ol_players = document.getElementById('players');
 
-   console.log(players.sort((a, b) => { return a.number - b.number }));
+   console.log(players.sort((a, b) => { return a['number'] - b['number'] }));
 
    players.forEach(p => {
       console.log(p.number + ' => ' + p.name);
