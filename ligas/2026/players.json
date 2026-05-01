@@ -1,14 +1,50 @@
-{
-  "1": "Fco. Javier R.",
-  "2": "Jean Marie",
-  "3": "Juan D.",
-  "4": "Juan G.",
-  "5": "José David",
-  "6": "José María",
-  "7": "J. Luis R.",
-  "8": "Francisco V.",
-  "9": "Enrique",
-  "10": "Álvaro",
-  "11": "José (Càrtama)",
-  "12": "Fco. Javier S."
-}
+[
+  {
+    "number": 1,
+    "name": "Fco. Javier R."
+  },
+  {
+    "number": 2,
+    "name": "Jean Marie"
+  },
+  {
+    "number": 3,
+    "name": "Juan D."
+  },
+  {
+    "number": 4,
+    "name": "Juan G."
+  },
+  {
+    "number": 5,
+    "name": "José David"
+  },
+  {
+    "number": 6,
+    "name": "José María"
+  },
+  {
+    "number": 7,
+    "name": "J. Luis R."
+  },
+  {
+    "number": 8,
+    "name": "Francisco V."
+  },
+  {
+    "number": 9,
+    "name": "Enrique"
+  },
+  {
+    "number": 10,
+    "Álvaro"
+  },
+  {
+    "number": 11,
+    "name": "José (Càrtama)"
+  },
+  {
+    "number": 12,
+    "name": "Fco. Javier S."
+  }
+]

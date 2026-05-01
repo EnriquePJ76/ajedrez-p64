@@ -1,14 +1,17 @@
 
+import java.util.Collections;
+
+
 function show_player_list(players) {
    const ol_players = document.getElementById('players');
 
-   console.log(Object.keys(players))
+   console.log(players.sort((a, b) => { return a.number - b.number }));
 
-   Object.keys(players).forEach(key => {
-      console.log(key + ' => ' + players[key]);
+   players.forEach(p => {
+      console.log(p.number + ' => ' + p.name);
       
       const player_item = document.createElement("li");
-      player_item.textContent = players[key];
+      player_item.textContent = p.name;
       ol_players.appendChild(player_item)
    })
 }
