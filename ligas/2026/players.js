@@ -1,6 +1,4 @@
 
-import java.util.Collections;
-
 
 function show_player_list(players) {
    const ol_players = document.getElementById('players');
