@@ -2,6 +2,8 @@
 function show_player_list(players) {
    const ol_players = document.getElementById('players');
 
+   console.log(Object.keys(players))
+
    Object.keys(players).forEach(key => {
       console.log(key + ' => ' + players[key]);
       
