@@ -34,11 +34,19 @@ const table_head_create = () => {
    const white = document.createElement('td');
    white.textContent = 'Blancas';
 
+   const w_score = document.createElement('td');
+   w_score.textContent = 'Puntuación';
+
    const black = document.createElement('td');
    black.textContent = 'Negras';
 
+   const b_score = document.createElement('td');
+   b_score.textContent = 'Puntuación';
+
    head.appendChild(white);
+   head.appendChild(w_score);
    head.appendChild(black);
+   head.appendChild(b_score);
 
    return head;
 }
@@ -51,11 +59,26 @@ const table_match_create = (md) => {
    const white = document.createElement('td');
    white.textContent = "("+md.white+") "+players_dict[md.white];
 
+   const white_sc = document.createElement('td');
+   if (md.finished) white_sc.textContent = md.white_score
+
    const black = document.createElement('td');
    black.textContent = "("+md.black+") "+players_dict[md.black];
 
+   const black_sc = document.createElement('td');
+   if (md.finished) black_sc.textContent = md.black_score
+
    row.appendChild(white);
+   row.appendChild(white_sc);
    row.appendChild(black);
+   row.appendChild(black_sc);
+
+   if (scores.length < 1) {
+      scores = Object.fromEntries(
+         players.map( x => [x.number, { 'number': x.number, 'name': x.name, 'score': 0 } ])
+      );
+   }
+   score_add(scores, md);
 
    return row;
 }
@@ -117,12 +140,17 @@ const get_matchdays = () => {
     rq.onload = function () {
        matchdays = rq.response;
        matchdays = rq.response.sort(matchday_sort);
-       matchdays.forEach(matchday_create_tab)
+       matchdays.forEach(matchday_create_tab);
+
+       var sc_list = Object.values(scores);
+       sc_list.sort(score_sort).forEach(score_show);
     }
 
 }
 
 
 var matchdays = [] 
+var scores = [] 
+
 get_matchdays();
 

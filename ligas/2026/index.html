@@ -11,16 +11,31 @@
  </head>
 
  <body>
-  <div class='w3-container'>
 
+  <div class='w3-container'>
     <h1>Club ajedrez P64</h1>
     <h2>Liga interna 2026/27</h2>
+  </div>
+
+  <div class='w3-flex' style='gap:8px'>
 
     <div class='w3-container'>
-      <h3>Jugadores</h3> 
-      <ol id="players"></ol>
+      <div class='w3-container'>
+        <h3>Jugadores</h3> 
+        <ol id="players"></ol>
+      </div>
     </div>
 
+    <div class='w3-container'>
+      <div class='w3-container'>
+        <h3>Clasificación</h3> 
+        <ol id="scores"></ol>
+      </div>
+    </div>
+
+  </div>
+
+  <div class='w3-container'>
     <div class='w3-container'>
       <h3>Jornadas</h3> 
 
@@ -36,6 +51,7 @@
     <p>Liga interna creada por el club de ajedrez P64 de Pizarra</p>
   </div>
 
+  <script src='scores.js'></script>
   <script src='players.js'></script>
   <script src='matchdays.js'></script>
  </body>

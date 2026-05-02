@@ -4,27 +4,45 @@
     "matchs":[
       {
         "white": 1,
-        "black": 12
+        "black": 12,
+        "white_score": -0.5,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 2,
-        "black": 11
+        "black": 11,
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 3,
-        "black": 10
+        "black": 10,
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 4,
-        "black": 9
+        "black": 9,
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 5,
-        "black": 8
+        "black": 8,
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 6,
-        "black": 7
+        "black": 7,
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       }
     ] 
   },
@@ -33,27 +51,41 @@
     "matchs":[
       {
         "white": 12,
-        "black": 7
+        "black": 7,
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 8,
-        "black": 6
+        "black": 6,
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 9,
-        "black": 5
+        "black": 5,
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 10,
-        "black": 4
+        "black": 4,
+        "finished": false
       },
       {
         "white": 11,
-        "black": 3
+        "black": 3,
+        "finished": false
       },
       {
         "white": 1,
-        "black": 2
+        "black": 2,
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       }
     ] 
   },
@@ -62,27 +94,33 @@
     "matchs":[
       {
         "white": 2,
-        "black": 12
+        "black": 12,
+        "finished": false
       },
       {
         "white": 3,
-        "black": 1
+        "black": 1,
+        "finished": false
       },
       {
         "white": 4,
-        "black": 11
+        "black": 11,
+        "finished": false
       },
       {
         "white": 5,
-        "black": 10
+        "black": 10,
+        "finished": false
       },
       {
         "white": 6,
-        "black": 9
+        "black": 9,
+        "finished": false
       },
       {
         "white": 7,
-        "black": 8
+        "black": 8,
+        "finished": false
       }
     ] 
   },
@@ -91,27 +129,33 @@
     "matchs":[
       {
         "white": 12,
-        "black": 8
+        "black": 8,
+        "finished": false
       },
       {
         "white": 9,
-        "black": 7
+        "black": 7,
+        "finished": false
       },
       {
         "white": 10,
-        "black": 6
+        "black": 6,
+        "finished": false
       },
       {
         "white": 11,
-        "black": 5
+        "black": 5,
+        "finished": false
       },
       {
         "white": 1,
-        "black": 4
+        "black": 4,
+        "finished": false
       },
       {
         "white": 2,
-        "black": 3
+        "black": 3,
+        "finished": false
       }
     ] 
   },
@@ -120,27 +164,33 @@
     "matchs":[
       {
         "white": 3,
-        "black": 12
+        "black": 12,
+        "finished": false
       },
       {
         "white": 4,
-        "black": 2
+        "black": 2,
+        "finished": false
       },
       {
         "white": 5,
-        "black": 1
+        "black": 1,
+        "finished": false
       },
       {
         "white": 6,
-        "black": 11
+        "black": 11,
+        "finished": false
       },
       {
         "white": 7,
-        "black": 10
+        "black": 10,
+        "finished": false
       },
       {
         "white": 8,
-        "black": 9
+        "black": 9,
+        "finished": false
       }
     ] 
   },
@@ -149,27 +199,33 @@
     "matchs":[
       {
         "white": 12,
-        "black": 9
+        "black": 9,
+        "finished": false
       },
       {
         "white": 10,
-        "black": 8
+        "black": 8,
+        "finished": false
       },
       {
         "white": 11,
-        "black": 7
+        "black": 7,
+        "finished": false
       },
       {
         "white": 1,
-        "black": 6
+        "black": 6,
+        "finished": false
       },
       {
         "white": 2,
-        "black": 5
+        "black": 5,
+        "finished": false
       },
       {
         "white": 3,
-        "black": 4
+        "black": 4,
+        "finished": false
       }
     ] 
   },
@@ -178,27 +234,33 @@
     "matchs":[
       {
         "white": 4,
-        "black": 12
+        "black": 12,
+        "finished": false
       },
       {
         "white": 5,
-        "black": 3
+        "black": 3,
+        "finished": false
       },
       {
         "white": 6,
-        "black": 2
+        "black": 2,
+        "finished": false
       },
       {
         "white": 7,
-        "black": 1
+        "black": 1,
+        "finished": false
       },
       {
         "white": 8,
-        "black": 11
+        "black": 11,
+        "finished": false
       },
       {
         "white": 9,
-        "black": 10
+        "black": 10,
+        "finished": false
       }
     ] 
   },
@@ -207,27 +269,33 @@
     "matchs":[
       {
         "white": 12,
-        "black": 10
+        "black": 10,
+        "finished": false
       },
       {
         "white": 11,
-        "black": 9
+        "black": 9,
+        "finished": false
       },
       {
         "white": 1,
-        "black": 8
+        "black": 8,
+        "finished": false
       },
       {
         "white": 2,
-        "black": 7
+        "black": 7,
+        "finished": false
       },
       {
         "white": 3,
-        "black": 6
+        "black": 6,
+        "finished": false
       },
       {
         "white": 4,
-        "black": 5
+        "black": 5,
+        "finished": false
       }
     ] 
   },
@@ -236,27 +304,33 @@
     "matchs":[
       {
         "white": 5,
-        "black": 12
+        "black": 12,
+        "finished": false
       },
       {
         "white": 6,
-        "black": 4
+        "black": 4,
+        "finished": false
       },
       {
         "white": 7,
-        "black": 3
+        "black": 3,
+        "finished": false
       },
       {
         "white": 8,
-        "black": 2
+        "black": 2,
+        "finished": false
       },
       {
         "white": 9,
-        "black": 1
+        "black": 1,
+        "finished": false
       },
       {
         "white": 10,
-        "black": 11
+        "black": 11,
+        "finished": false
       }
     ] 
   },
@@ -265,27 +339,33 @@
     "matchs":[
       {
         "white": 12,
-        "black": 11
+        "black": 11,
+        "finished": false
       },
       {
         "white": 1,
-        "black": 10
+        "black": 10,
+        "finished": false
       },
       {
         "white": 2,
-        "black": 9
+        "black": 9,
+        "finished": false
       },
       {
         "white": 3,
-        "black": 8
+        "black": 8,
+        "finished": false
       },
       {
         "white": 4,
-        "black": 7
+        "black": 7,
+        "finished": false
       },
       {
         "white": 5,
-        "black": 6
+        "black": 6,
+        "finished": false
       }
     ] 
   },
@@ -294,27 +374,33 @@
     "matchs":[
       {
         "white": 6,
-        "black": 12
+        "black": 12,
+        "finished": false
       },
       {
         "white": 7,
-        "black": 5
+        "black": 5,
+        "finished": false
       },
       {
         "white": 8,
-        "black": 4
+        "black": 4,
+        "finished": false
       },
       {
         "white": 9,
-        "black": 3
+        "black": 3,
+        "finished": false
       },
       {
         "white": 10,
-        "black": 2
+        "black": 2,
+        "finished": false
       },
       {
         "white": 11,
-        "black": 1
+        "black": 1,
+        "finished": false
       }
     ] 
   }

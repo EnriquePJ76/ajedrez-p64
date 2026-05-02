@@ -1,13 +1,13 @@
 
 
-const sort_player = (a, b) => { return a.number - b.number }
+const player_sort = (a, b) => { return a.number - b.number }
 
 const show_player = (p) => {
-   const ol_players = document.getElementById('players');
+   const players_ol = document.getElementById('players');
    const player_item = document.createElement("li");
 
    player_item.textContent = p.name;
-   ol_players.appendChild(player_item)
+   players_ol.appendChild(player_item)
 }
 
 const get_players = () => {
@@ -20,7 +20,7 @@ const get_players = () => {
     rq.send();
     
     rq.onload = function () {
-       players = rq.response.sort(sort_player);
+       players = rq.response.sort(player_sort);
        players.forEach(show_player)
     }
 
