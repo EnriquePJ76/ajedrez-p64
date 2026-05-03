@@ -143,7 +143,8 @@ const get_matchdays = () => {
        matchdays.forEach(matchday_create_tab);
 
        var sc_list = Object.values(scores);
-       sc_list.sort(score_sort).forEach(score_show);
+       //sc_list.sort(score_sort).forEach(score_show);
+       score_tb_create(sc_list.sort(score_sort));
     }
 
 }

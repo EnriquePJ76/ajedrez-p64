@@ -21,7 +21,7 @@ const get_players = () => {
     
     rq.onload = function () {
        players = rq.response.sort(player_sort);
-       players.forEach(show_player)
+       //players.forEach(show_player)
     }
 
 }

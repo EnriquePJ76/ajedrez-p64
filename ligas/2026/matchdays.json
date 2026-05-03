@@ -12,8 +12,8 @@
       {
         "white": 2,
         "black": 11,
-        "white_score": 1,
-        "black_score": 0,
+        "white_score": 0,
+        "black_score": 1,
         "finished": true
       },
       {
