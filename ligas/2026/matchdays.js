@@ -43,10 +43,14 @@ const table_head_create = () => {
    const b_score = document.createElement('td');
    b_score.textContent = 'Puntuación';
 
+   const pgn = document.createElement('td');
+   pgn.textContent = 'PGN';
+
    head.appendChild(white);
    head.appendChild(w_score);
    head.appendChild(black);
    head.appendChild(b_score);
+   head.appendChild(pgn);
 
    return head;
 }
@@ -68,10 +72,24 @@ const table_match_create = (md) => {
    const black_sc = document.createElement('td');
    if (md.finished) black_sc.textContent = md.black_score
 
+   const pgn = document.createElement('td');
+   if (md.png) {
+      const pgn_link = document.createElement('a');
+      pgn_link.href = md.png;
+
+      const pgn_icon = document.createElement('i');
+      pgn_icon.classList.add('fa');
+      pgn_icon.classList.add('fa-download');
+
+      pgn_link.appendChild(pgn_icon);
+      pgn.appendChild(pgn_link);
+   }
+
    row.appendChild(white);
    row.appendChild(white_sc);
    row.appendChild(black);
    row.appendChild(black_sc);
+   row.appendChild(pgn);
 
    if (scores.length < 1) {
       scores = Object.fromEntries(
