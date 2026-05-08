@@ -38,24 +38,17 @@
         "finished": true
       },
       {
-        "white": 6,
-        "black": 7,
-        "white_score": 1,
-        "black_score": 0,
+        "white": 7,
+        "black": 6,
+        "white_score": 0,
+        "black_score": 1,
         "finished": true
       }
     ] 
   },
   {
     "number": 2,
-    "matchs":[
-      {
-        "white": 12,
-        "black": 7,
-        "white_score": 0,
-        "black_score": 1,
-        "finished": true
-      },
+    "matchs": [
       {
         "white": 8,
         "black": 6,
@@ -81,18 +74,6 @@
         "finished": false
       },
       {
-        "white": 1,
-        "black": 2,
-        "white_score": 0,
-        "black_score": 1,
-        "finished": true
-      }
-    ] 
-  },
-  {
-    "number": 3,
-    "matchs":[
-      {
         "white": 2,
         "black": 12,
         "white_score": 1,
@@ -100,11 +81,24 @@
         "finished": true
       },
       {
-        "white": 3,
+        "white": 13,
         "black": 1,
-        "white_score": 0,
-        "black_score": 1,
-        "finished": true
+        "finished": false
+      }
+    ]
+  },
+  {
+    "number": 3,
+    "matchs":[
+      {
+        "white": 2,
+        "black": 13,
+        "finished": false
+      },
+      {
+        "white": 3,
+        "black": 12,
+        "finished": false
       },
       {
         "white": 4,
@@ -141,11 +135,6 @@
     "number": 4,
     "matchs":[
       {
-        "white": 12,
-        "black": 8,
-        "finished": false
-      },
-      {
         "white": 9,
         "black": 7,
         "finished": false
@@ -161,14 +150,21 @@
         "finished": false
       },
       {
-        "white": 1,
+        "white": 12,
         "black": 4,
         "finished": false
       },
       {
-        "white": 2,
+        "white": 13,
         "black": 3,
         "finished": false
+      },
+      {
+        "white": 1,
+        "black": 2,
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       }
     ] 
   },
@@ -177,17 +173,19 @@
     "matchs":[
       {
         "white": 3,
-        "black": 12,
-        "finished": false
+        "black": 1,
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 4,
-        "black": 2,
+        "black": 13,
         "finished": false
       },
       {
         "white": 5,
-        "black": 1,
+        "black": 12,
         "finished": false
       },
       {
@@ -211,17 +209,17 @@
     "number": 6,
     "matchs":[
       {
-        "white": 12,
+        "white": 11,
         "black": 9,
         "finished": false
       },
       {
-        "white": 10,
+        "white": 12,
         "black": 8,
         "finished": false
       },
       {
-        "white": 11,
+        "white": 13,
         "black": 7,
         "finished": false
       },
@@ -246,11 +244,6 @@
     "number": 7,
     "matchs":[
       {
-        "white": 4,
-        "black": 12,
-        "finished": false
-      },
-      {
         "white": 5,
         "black": 3,
         "finished": false
@@ -267,12 +260,17 @@
       },
       {
         "white": 8,
-        "black": 11,
+        "black": 13,
         "finished": false
       },
       {
         "white": 9,
-        "black": 10,
+        "black": 12,
+        "finished": false
+      },
+      {
+        "white": 10,
+        "black": 11,
         "finished": false
       }
     ] 
@@ -286,7 +284,7 @@
         "finished": false
       },
       {
-        "white": 11,
+        "white": 13,
         "black": 9,
         "finished": false
       },
@@ -316,11 +314,6 @@
     "number": 9,
     "matchs":[
       {
-        "white": 5,
-        "black": 12,
-        "finished": false
-      },
-      {
         "white": 6,
         "black": 4,
         "finished": false
@@ -342,7 +335,12 @@
       },
       {
         "white": 10,
-        "black": 11,
+        "black": 13,
+        "finished": false
+      },
+      {
+        "white": 11,
+        "black": 12,
         "finished": false
       }
     ] 
@@ -351,7 +349,7 @@
     "number": 10,
     "matchs":[
       {
-        "white": 12,
+        "white": 13,
         "black": 11,
         "finished": false
       },
@@ -386,11 +384,6 @@
     "number": 11,
     "matchs":[
       {
-        "white": 6,
-        "black": 12,
-        "finished": false
-      },
-      {
         "white": 7,
         "black": 5,
         "finished": false
@@ -413,6 +406,83 @@
       {
         "white": 11,
         "black": 1,
+        "finished": false
+      },
+      {
+        "white": 12,
+        "black": 3,
+        "finished": false
+      }
+    ] 
+  },
+  {
+    "number": 12,
+    "matchs":[
+      {
+        "white": 10,
+        "black": 8,
+        "finished": false
+      },
+      {
+        "white": 11,
+        "black": 7,
+        "finished": false
+      },
+      {
+        "white": 12,
+        "black": 6,
+        "finished": false
+      },
+      {
+        "white": 13,
+        "black": 5,
+        "finished": false
+      },
+      {
+        "white": 1,
+        "black": 4,
+        "finished": false
+      },
+      {
+        "white": 2,
+        "black": 3,
+        "finished": false
+      }
+    ] 
+  },
+  {
+    "number": 13,
+    "matchs":[
+      {
+        "white": 4,
+        "black": 2,
+        "finished": false
+      },
+      {
+        "white": 5,
+        "black": 1,
+        "finished": false
+      },
+      {
+        "white": 6,
+        "black": 13,
+        "finished": false
+      },
+      {
+        "white": 12,
+        "black": 7,
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
+      },
+      {
+        "white": 8,
+        "black": 11,
+        "finished": false
+      },
+      {
+        "white": 9,
+        "black": 11,
         "finished": false
       }
     ] 
