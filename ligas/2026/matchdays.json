@@ -1,6 +1,7 @@
 [
   {
     "number": 1,
+    "date": "2026-04-26",
     "matchs":[
       {
         "white": 1,
@@ -54,6 +55,7 @@
         "black": 6,
         "white_score": 1,
         "black_score": 0,
+        "png": "matchs/r2w8b6.pgn",
         "finished": true
       },
       {
@@ -61,12 +63,16 @@
         "black": 5,
         "white_score": 1,
         "black_score": 0,
+        "png": "matchs/r2w9b5.pgn",
         "finished": true
       },
       {
         "white": 10,
         "black": 4,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "png": "matchs/r2w10b4.pgn",
+        "finished": true
       },
       {
         "white": 11,
@@ -164,6 +170,7 @@
         "black": 2,
         "white_score": 0,
         "black_score": 1,
+        "png": "matchs/r4w1b2.pgn",
         "finished": true
       }
     ] 
@@ -473,6 +480,7 @@
         "black": 7,
         "white_score": 0,
         "black_score": 1,
+        "png": "matchs/r13w12b7.pgn",
         "finished": true
       },
       {
