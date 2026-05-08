@@ -1,5 +1,10 @@
 
-const score_sort = (a, b) => { return b.score - a.score }
+const score_sort = (a, b) => { 
+    if (a.score == b.score) {
+       return a.matchs - b.matchs;
+    }
+    return b.score - a.score;
+}
 
 const score_add = (scores, match) => {
    if (match.finished) {
