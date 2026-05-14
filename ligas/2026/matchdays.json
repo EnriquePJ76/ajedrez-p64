@@ -89,7 +89,10 @@
       {
         "white": 13,
         "black": 1,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "png": "matchs/r2w13b1.pgn",
+        "finished": true
       }
     ]
   },
@@ -143,7 +146,9 @@
       {
         "white": 9,
         "black": 7,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 10,
@@ -153,17 +158,24 @@
       {
         "white": 11,
         "black": 5,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 12,
         "black": 4,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 13,
         "black": 3,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "png": "matchs/r4w13b3.pgn",
+        "finished": true
       },
       {
         "white": 1,
