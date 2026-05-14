@@ -114,6 +114,7 @@
         "black": 11,
         "white_score": 1,
         "black_score": 0,
+        "png": "matchs/r3w4b11.pgn",
         "finished": true
       },
       {
@@ -121,6 +122,7 @@
         "black": 10,
         "white_score": 1,
         "black_score": 0,
+        "png": "matchs/r3w5b10.pgn",
         "finished": true
       },
       {
