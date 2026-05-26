@@ -73,9 +73,9 @@ const table_match_create = (md) => {
    if (md.finished) black_sc.textContent = md.black_score
 
    const pgn = document.createElement('td');
-   if (md.png) {
+   if (md.pgn) {
       const pgn_link = document.createElement('a');
-      pgn_link.href = md.png;
+      pgn_link.href = md.pgn;
 
       const pgn_icon = document.createElement('i');
       pgn_icon.classList.add('fa');

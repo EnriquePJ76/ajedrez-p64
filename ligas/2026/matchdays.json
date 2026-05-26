@@ -29,6 +29,7 @@
         "black": 9,
         "white_score": 1,
         "black_score": 0,
+        "pgn": "matchs/r1w4b9.pgn",
         "finished": true
       },
       {
@@ -55,7 +56,7 @@
         "black": 6,
         "white_score": 1,
         "black_score": 0,
-        "png": "matchs/r2w8b6.pgn",
+        "pgn": "matchs/r2w8b6.pgn",
         "finished": true
       },
       {
@@ -63,7 +64,7 @@
         "black": 5,
         "white_score": 1,
         "black_score": 0,
-        "png": "matchs/r2w9b5.pgn",
+        "pgn": "matchs/r2w9b5.pgn",
         "finished": true
       },
       {
@@ -71,7 +72,7 @@
         "black": 4,
         "white_score": 0,
         "black_score": 1,
-        "png": "matchs/r2w10b4.pgn",
+        "pgn": "matchs/r2w10b4.pgn",
         "finished": true
       },
       {
@@ -91,7 +92,7 @@
         "black": 1,
         "white_score": 0,
         "black_score": 1,
-        "png": "matchs/r2w13b1.pgn",
+        "pgn": "matchs/r2w13b1.pgn",
         "finished": true
       }
     ]
@@ -114,7 +115,7 @@
         "black": 11,
         "white_score": 1,
         "black_score": 0,
-        "png": "matchs/r3w4b11.pgn",
+        "pgn": "matchs/r3w4b11.pgn",
         "finished": true
       },
       {
@@ -122,7 +123,7 @@
         "black": 10,
         "white_score": 1,
         "black_score": 0,
-        "png": "matchs/r3w5b10.pgn",
+        "pgn": "matchs/r3w5b10.pgn",
         "finished": true
       },
       {
@@ -137,7 +138,7 @@
         "black": 8,
         "white_score": 1,
         "black_score": 0,
-        "png": "matchs/r3w7b8.pgn",
+        "pgn": "matchs/r3w7b8.pgn",
         "finished": true
       }
     ] 
@@ -155,7 +156,9 @@
       {
         "white": 10,
         "black": 6,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true 
       },
       {
         "white": 11,
@@ -176,7 +179,7 @@
         "black": 3,
         "white_score": 1,
         "black_score": 0,
-        "png": "matchs/r4w13b3.pgn",
+        "pgn": "matchs/r4w13b3.pgn",
         "finished": true
       },
       {
@@ -184,7 +187,7 @@
         "black": 2,
         "white_score": 0,
         "black_score": 1,
-        "png": "matchs/r4w1b2.pgn",
+        "pgn": "matchs/r4w1b2.pgn",
         "finished": true
       }
     ] 
@@ -207,7 +210,9 @@
       {
         "white": 5,
         "black": 12,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 6,
@@ -217,12 +222,18 @@
       {
         "white": 7,
         "black": 10,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "pgn": "matchs/r5w7b10.pgn",
+        "finished": true
       },
       {
         "white": 8,
         "black": 9,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "pgn": "matchs/r5w8b9.pgn",
+        "finished": true
       }
     ] 
   },
@@ -232,12 +243,17 @@
       {
         "white": 11,
         "black": 9,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "pgn": "matchs/r6w11b9.pgn",
+        "finished": true
       },
       {
         "white": 12,
         "black": 8,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 13,
@@ -252,7 +268,9 @@
       {
         "white": 2,
         "black": 5,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 3,
@@ -494,7 +512,7 @@
         "black": 7,
         "white_score": 0,
         "black_score": 1,
-        "png": "matchs/r13w12b7.pgn",
+        "pgn": "matchs/r13w12b7.pgn",
         "finished": true
       },
       {
