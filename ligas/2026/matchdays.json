@@ -78,7 +78,10 @@
       {
         "white": 11,
         "black": 3,
-        "finished": false
+        "white_score": 0.5,
+        "black_score": 0.5,
+        "pgn": "matchs/r2w11b3.pgn",
+        "finished": true
       },
       {
         "white": 2,
@@ -103,7 +106,9 @@
       {
         "white": 2,
         "black": 13,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 3,
@@ -217,7 +222,9 @@
       {
         "white": 6,
         "black": 11,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 7,
@@ -258,12 +265,16 @@
       {
         "white": 13,
         "black": 7,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 1,
         "black": 6,
-        "finished": false
+        "white_score": 0.5,
+        "black_score": 0.5,
+        "finished": true
       },
       {
         "white": 2,
@@ -285,12 +296,16 @@
       {
         "white": 5,
         "black": 3,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 6,
         "black": 2,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 7,
@@ -300,12 +315,16 @@
       {
         "white": 8,
         "black": 13,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 9,
         "black": 12,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 10,
