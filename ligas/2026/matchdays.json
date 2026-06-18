@@ -108,6 +108,7 @@
         "black": 13,
         "white_score": 1,
         "black_score": 0,
+        "pgn": "matchs/r3w2b13.pgn",
         "finished": true
       },
       {
@@ -267,6 +268,7 @@
         "black": 7,
         "white_score": 0,
         "black_score": 1,
+        "pgn": "matchs/r6w13b7.pgn",
         "finished": true
       },
       {
@@ -274,6 +276,7 @@
         "black": 6,
         "white_score": 0.5,
         "black_score": 0.5,
+        "pgn": "matchs/r6w1b6.pgn",
         "finished": true
       },
       {
@@ -339,32 +342,44 @@
       {
         "white": 12,
         "black": 10,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 13,
         "black": 9,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 1,
         "black": 8,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 2,
         "black": 7,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       },
       {
         "white": 3,
         "black": 6,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 4,
         "black": 5,
-        "finished": false
+        "white_score": 1,
+        "black_score": 0,
+        "finished": true
       }
     ] 
   },
