@@ -114,7 +114,9 @@
       {
         "white": 3,
         "black": 12,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 4,
@@ -379,6 +381,7 @@
         "black": 5,
         "white_score": 1,
         "black_score": 0,
+        "pgn": "matchs/r8w4b5.pgn",
         "finished": true
       }
     ] 
@@ -399,17 +402,23 @@
       {
         "white": 8,
         "black": 2,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 9,
         "black": 1,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 10,
         "black": 13,
-        "finished": false
+        "white_score": 0,
+        "black_score": 1,
+        "finished": true
       },
       {
         "white": 11,
